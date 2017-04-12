@@ -20,7 +20,7 @@ def profile(request):
     parsedData = []
     userData = {}
     for data in jsonList:
-    userData['name'] = data['name']
+        userData['name'] = data['name']
         userData['blog'] = data['blog']
         userData['email'] = data['email']
         userData['public_gists'] = data['public_gists']
